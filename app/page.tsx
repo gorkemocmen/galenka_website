@@ -1,11 +1,9 @@
-// app/page.tsx
-import React from 'react';
+import CompanyCarousel from "@/components/CompanyCarousel";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div>
-      <h1>Welcome to the Company</h1>
-      <p>This is the landing page.</p>
-    </div>
+    <main>
+      <CompanyCarousel />
+    </main>
   );
 }
